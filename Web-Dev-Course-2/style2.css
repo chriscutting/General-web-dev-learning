@@ -1,0 +1,32 @@
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 48px;
+  border-bottom-width: 3px;
+  border-color: black;
+  border-style: solid;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+
+h3 {
+  border-bottom: solid, black;
+}
+
+h4 {
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background: url(https://hdwallsource.com/img/2014/2/minimalist-wallpaper-5748-5913-hd-wallpapers.jpg);
+  background-size: cover;
+}
+
+
+table {
+  background: #456e21;
+
+
+/* borders are width, color, and style attributes, you MUST have all of them*/
+/* syntax for classes and ids are . and # respecively */

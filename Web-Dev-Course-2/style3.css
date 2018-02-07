@@ -1,0 +1,29 @@
+
+
+/* the * selector selects all thing
+* {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+}
+*/
+/* descending selects can be used to select tags inside other tags, like so
+ul li {
+border: black 1px solid;
+}
+*/
+
+/*adjacent selectors are used for things directly underneath the tag you want to
+us e.g.: h4 + ul
+*/
+
+
+/*attribute selectors can use an attribute to select things.
+syntax is: a [href="https://www.google.com"]
+*/
+
+
+/* nTH of type is used to select 2nd,3rd tags, etc.
+e.g. ul: nth-of-type(3){
+font-family:sans-serif
+}
