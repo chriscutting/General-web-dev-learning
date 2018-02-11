@@ -2,51 +2,98 @@
 <html>
 <head>
 <meta charset="utf-8">
-<meta name="description" content"This is where I hold my form practice">
-<meta name="author" content="chris uses this">
-<meta name="keywords" content="html,forms,css,jQuery">
+<meta name="description" content"This is just some text for css practice">
+<meta name="author" content="chris cutting">
+<meta name="keywords" content="HTML,forms,CSS,JavaScript">
 
-<link rel="stylesheet" type="text/css" href="style2.css"/>
+<link rel="stylesheet" type="text/css" href="style.css"/>
 
 
 </head>
 <body>
-  <h1>Test Site for Css</h1>
-  <h4>This is a subheading for creative purposes</h4>
+  <div class="inset">
+  <h1 id="title">Test Site for Css</h1>
+  <h4 class="subhead">This is a subheading for creative purposes</h4>
 
-  <image src="https://production.cdmycdn.com/webpack/9522085449ef048604ca3f5fa8d1bc27.svg">
+  <center><image class="image" src="https://production.cdmycdn.com/webpack/9522085449ef048604ca3f5fa8d1bc27.svg"></center>
     <br />
-    <H3> Some of my favorite things </h3>
-      <ul>
+    <h4 class="subhead"> Some of my favorite things </h4>
+      <ul class="list">
         <li> Pizza </li>
         <li> Making web sites </li>
         <li> Video Games </li>
         </ul>
-        <h4> This is an example paragraph </h4>
-        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-           magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-        <p>
-          Make sure to follow me on <a href="Https://instagram.com">Instagram</a>
+        <h4 class="subhead"> This is an example paragraph </h4>
+        <p class="latin"> Lorem ipsum dolor sit amet, consectetur adipisicing
+          elit, sed do eiusmod tempor incididunt ut labore et dolore
+           magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+           ullamco laboris nisi ut aliquip ex ea commodo consequat.
+           Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+            dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+            non proident, sunt in culpa qui officia deserunt mollit anim
+            id est laborum.
         </p>
-        <table border = 1px>
+
+        <center><p>
+          Make sure to follow me on <a href="Https://instagram.com">Instagram</a>
+        </p></center>
+        <br />
+        <br />
+        <h4 class="subhead"> (This is called hipster ipsom) </h4>
+        <p class="hipster">
+          Lorem ipsum dolor amet thundercats single-origin coffee trust fund pug
+           XOXO vexillologist marfa. Four dollar toast hell of squid pickled
+            vegan, photo booth mixtape williamsburg post-ironic put a bird on it
+             aesthetic helvetica.Stumptown art party tilde, pop-up food truck
+             lomo hella mumblecore godard meditation brunch man braid.
+             Cliche tote bag raw denim taiyaki tacos cold-pressed
+             freegan tofu 90's. Migas vegan brooklyn 90's.
+        </p>
+        <p class="hipster">
+
+
+            Distillery meditation kitsch single-origin coffee drinking vinegar
+            edison bulb offal keffiyeh seitan lo-fi selvage cornhole
+            mixtape ugh everyday carry.
+        </p>
+        <p class="hipster">
+
+
+Kinfolk celiac shoreditch, paleo meditation next level intelligentsia freegan
+pug mlkshk chicharrones gastropub. Af keytar hot chicken, roof party
+single-origin coffee 90's copper mug snackwave vape umami organic chillwave
+viral brunch. Seitan flannel blue bottle typewriter, asymmetrical drinking
+vinegar banh mi vexillologist YOLO edison bulb paleo activated charcoal
+shoreditch normcore. Chicharrones kinfolk humblebrag, meggings ramps
+vexillologist adaptogen vinyl food truck bespoke.
+        </p>
+        <p class="hipster">
+
+
+<span>Oh. You need a little dummy text for your mockup? How quaint.</span>
+<br />
+I bet you’re still using Bootstrap too…
+        </p>
+        <center><table class="table" border = 1px>
           <thead>
             <th>super bowl teams</th>
           </thead>
           <tbody>
-            <td>Dumb Patriots</td>
-            <td>14</td>
+            <td>Patriots</td>
+            <td>31</td>
           </tr>
           <tr>
             <td>Eagles</td>
-            <td>39</td>
+            <td>44</td>
           </tr>
         </tbody>
-        </table>
+      </table></center>
 
-        <!-- Do some form demos here>-->
-        <h5> Here are some forms</h5>
-        <P> Send me some info for the php <p>
-        <form method="get">
+        <!-- Do some form demos here-->
+
+        <h4 class="subhead"> Here are some forms</h4>
+        <center><P> Send me some info for the php <p></center>
+        <form method="get" class="form">
         Firstname  <input type="text" placeholder="First Name" name="userinput" required></input>
         Lastname <input type="text" placeholder="Last Name"name="userinput" required></input>
           <br />
@@ -78,6 +125,7 @@
           <option> November </option>
           <option> December </option>
           </select>
+          <!-- Not going to do all of the years/days, but you get the idea --->
           <select name="birthday" value="birthday">
           <option> One </option>
           <option> Two </option>
@@ -88,12 +136,17 @@
           <option> 1995 </option>
           <option> 1996 </option>
         </select>
+
+        <br />
+
         <br />
         <br />
         <br />
 
 
-        <input type="checkbox" name="userinput" value="On" required> I agree to the terms and conditions </input>
+        <input type="checkbox" name="userinput" value="On" required>
+        I agree to the terms and conditions &copy;
+        </input>
         <br />
         <button> Submit </button>
 
@@ -102,32 +155,10 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         </form>
+        </div>
 
+        </body>
+        <footer></footer>
 
-
-
-
-
-
-
-
-      </body>
-      <footer></footer>
       </html>
