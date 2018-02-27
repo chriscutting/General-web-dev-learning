@@ -1,15 +1,6 @@
-var h1 = document.querySelector("h1");
-h1.style.color = "pink";
 
 
-var body = document.querySelector("body");
-var isGreen = false;
-
-setInterval(function(){
-  if (isGreen) {
-    body.style.background = "white";
-  } else{
-    body.style.background = "#54a45b";
-  }
-  isGreen = !isGreen;
-}, 1000);
+//querySelector works like the above 3, with css syntax( ./# )
+//e.g. var tag = document.querySelector("#id") or (".subhead");
+//querySelector only returns the first tag, not all.
+// That's what querySelectorAll is for.
