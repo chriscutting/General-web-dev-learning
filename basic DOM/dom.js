@@ -4,3 +4,4 @@
 //e.g. var tag = document.querySelector("#id") or (".subhead");
 //querySelector only returns the first tag, not all.
 // That's what querySelectorAll is for.
+//getAttribute()
