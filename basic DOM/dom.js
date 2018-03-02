@@ -1,3 +1,12 @@
+var button = document.querySelector("button");
+
+
+
+function changeColor(){
+document.body.classList.toggle("purple");
+};
+
+button.addEventListener("click", changeColor);
 
 
 //querySelector works like the above 3, with css syntax( ./# )
