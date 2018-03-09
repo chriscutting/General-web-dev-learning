@@ -1,14 +1,25 @@
 <!Doctype="html">
 <html>
 <head>
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Raleway" rel="stylesheet">
   <link rel = "stylesheet" type = "text/css" href= "C:\Users\CHRIS\Documents\GitHub\General-web-dev-learning\color picking game\colorpicking.css">
 <title> The RGB game </title>
 
 
 </head>
 <body>
-  <h1><center> The Great<span id = "pickedColor"></span> Color game!</center></h1>
-  <div><span id = 'message'></span></div>
+  <h1><center> The Great
+    <br />
+    <span id = "pickedColor"></span>
+    </br />
+    Color game!</center></h1>
+  <div id = "stripe">
+    <button id ="reset">New Color</button>
+    <span id = 'message'></span>
+    <button class = "difficulty" id = "easyButton">Easy</button>
+    <button class = "difficulty selected" id = "hardButton">Hard</button>
+
+  </div>
 <div id = "container">
  <div class = "square"></div>
   <div class = "square"></div>
