@@ -1,3 +1,67 @@
+@font-face {
+  font-family: PipBoy;
+  src: url('C:/Users/CHRIS/Documents/GitHub/General-web-dev-learning/PipBoy/monofonto.ttf');
+
+}
+
+
+body {
+  Color: #14fe17;
+  Background: #272b23;
+  font-family: PipBoy, sans-serif;
+}
+
+
+.navbar.navbar-expand-lg{
+  border-bottom: 2px solid #14fe17;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.navbar.navbar-expand-lg::before, .navbar.navbar-expand-lg::after {
+height: 7px;
+width: 2px;
+content: "";
+position: absolute;
+display: block;
+z-index: 5000;
+background:#14fe17;
+
+bottom: -7px;
+
+}
+
+.navbar.navbar-expand-lg::before {
+  left: 0px;
+}
+
+.navbar.navbar-expand-lg::after {
+  right:0px;
+}
+
+.navbar-nav.nav-fill{
+  width: 100%;
+}
+
+
+.nav.nav-tabs {
+  border-bottom: 2px solid #14fe17;
+}
+
+
+
+ul > li.nav-item > a.nav-link {
+  color: #14fe17 !important;
+width: 50%;
+margin: auto;
+
+}
+
+.navbar.nav{
+  width:100%;
+}
+
+
 .center-image {
     margin: auto;
     display: block;
@@ -5,6 +69,7 @@
     max-height: 300px;
     margin-top: 100px;
     filter: grayscale(1) sepia(100%) hue-rotate(55deg) saturate(4) brightness(1) contrast(2);
+
 
 }
 
@@ -19,8 +84,11 @@
 }
 
 .row {
-margin: auto;
+  margin: auto;
+  align-items: center;
 
-align-items: center;
+}
 
+#statInfo {
+  text-align: center;
 }
