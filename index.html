@@ -3,10 +3,10 @@
 
 <head>
   <meta charset="utf-8">
-<title>tinDog</title>
+  <title>tinDog</title>
 
-<!-- FontAwesome -->
-<script src="https://kit.fontawesome.com/f84569441e.js" crossorigin="anonymous"></script>
+  <!-- FontAwesome -->
+  <script src="https://kit.fontawesome.com/f84569441e.js" crossorigin="anonymous"></script>
 
   <!-- styles(bootstrap,google fonts, me) -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -53,13 +53,13 @@
         <div class="col-lg-6">
 
           <h1>Meet new and interesting dogs nearby.</h1>
-          <button type="button" class="btn btn-lg btn-dark"><span class="fab fa-apple"></span> Download</button>
-          <button type="button" class="btn btn-lg btn-outline-light"><span class="fab fa-google-play"></span> Download</button>
+          <button type="button" class="btn btn-lg btn-dark download-btn"><span class="fab fa-apple"></span> Download</button>
+          <button type="button" class="btn btn-lg btn-outline-light download-btn"><span class="fab fa-google-play"></span> Download</button>
         </div>
 
 
         <div class="col-lg-6">
-          <img  class="cellDog"src="images/iphone6.png" alt="iphone-mockup">
+          <img class="cellDog" src="images/iphone6.png" alt="iphone-mockup">
         </div>
       </div>
 
@@ -70,16 +70,31 @@
   <!-- Features -->
 
   <section id="features">
+    <!--  Feature icons-->
 
-    <h3>Easy to use.</h3>
-    <p>So easy to use, even your dog could do it.</p>
 
-    <h3>Elite Clientele</h3>
-    <p>We have all the dogs, the greatest dogs.</p>
+    <!-- Feature text -->
+    <div class="row text-center">
+      <div class="col-lg-4 col-md-12">
+      <span class="fas fa-heart fa-3x"></span>
+      <h3 class="feature-title text-center">Easy to use.</h3>
 
-    <h3>Guaranteed to work.</h3>
-    <p>Find the love of your dog's life or your money back.</p>
+        <p class="feature-info text-center">So easy to use, even your dog could do it.</p>
+      </div>
+      <div class="col-lg-4 col-md-12">
+  <span class="fas fa-bullseye fa-3x"></span>
+        <h3 class="feature-title text-center">Elite Clientele.</h3>
 
+        <p class="feature-info text-center">We have all the dogs, the greatest dogs.</p>
+      </div>
+      <div class="col-lg-4 col-md-12">
+        <span class="fas fa-check-circle fa-3x"></span>
+        <h3 class="feature-title text-center">Guaranteed to work.</h3>
+
+        <p class="feature-info text-center">Find the love of your dog's life or your money back.</p>
+
+      </div>
+    </div>
   </section>
 
 
