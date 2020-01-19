@@ -10,7 +10,7 @@
 
   <!-- styles(bootstrap,google fonts, me) -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,900|Ubuntu&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900|Ubuntu&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 
 
@@ -19,6 +19,8 @@
 <body>
 
   <section id="title">
+
+    <!-- Navbar -->
 
     <div class="container-fluid">
 
@@ -76,13 +78,13 @@
     <!-- Feature text -->
     <div class="row text-center">
       <div class="col-lg-4 col-md-12">
-      <span class="fas fa-heart fa-3x"></span>
-      <h3 class="feature-title text-center">Easy to use.</h3>
+        <span class="fas fa-heart fa-3x"></span>
+        <h3 class="feature-title text-center">Easy to use.</h3>
 
         <p class="feature-info text-center">So easy to use, even your dog could do it.</p>
       </div>
       <div class="col-lg-4 col-md-12">
-  <span class="fas fa-bullseye fa-3x"></span>
+        <span class="fas fa-bullseye fa-3x"></span>
         <h3 class="feature-title text-center">Elite Clientele.</h3>
 
         <p class="feature-info text-center">We have all the dogs, the greatest dogs.</p>
@@ -102,13 +104,32 @@
 
   <section id="testimonials">
 
-    <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
-    <img src="images/dog-img.jpg" alt="dog-profile">
-    <em>Pebbles, New York</em>
+    <div id="testimonial-carousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2 class="testimonial-text">I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+          <img class="testimonial-image" src="images/dog-img.jpg" alt="dog-profile">
+          <em>Pebbles, New York</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+          <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+          <em>Beverly, Illinois</em>
+        </div>
 
-    <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-    <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-    <em>Beverly, Illinois</em> -->
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+
+
 
   </section>
 
@@ -116,10 +137,10 @@
   <!-- Press -->
 
   <section id="press">
-    <img src="images/techcrunch.png" alt="tc-logo">
-    <img src="images/tnw.png" alt="tnw-logo">
-    <img src="images/bizinsider.png" alt="biz-insider-logo">
-    <img src="images/mashable.png" alt="mashable-logo">
+    <img class="pressImg" src="images/techcrunch.png" alt="tc-logo">
+    <img class="pressImg" src="images/tnw.png" alt="tnw-logo">
+    <img class="pressImg" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="pressImg" src="images/mashable.png" alt="mashable-logo">
 
   </section>
 
