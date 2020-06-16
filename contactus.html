@@ -1,0 +1,199 @@
+<!doctype html>
+<html>
+  <head>
+    <!-- Google fonts for "monsterrat" -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<style type="text/css">
+
+form {
+  font-family: Tahoma, verdana, sans-serif;
+  background-color:#ffffcc;
+}
+
+main {
+  text-align: center;
+  width: 80%;
+
+}
+
+input {
+  margin-top: 2%;
+  background-color: #ffffcc;
+  font-family: Tahoma, verdana, sans-serif;
+}
+
+
+</style>
+
+
+<title>Louvino's Contact Page</title>
+  </head>
+  <body>
+
+<header>
+  <img src="images/logo.png" alt="louvino logo">
+<h1> Contact Louvino's </h1>
+</header>
+
+
+<nav>
+  <ul>
+
+    <li><a href="index.html">Home</a></li>
+    <li><a href="aboutus.html">About us</a></li>
+    <li><a href="contactus.html">Contact</a></li>
+    <li><a href="history.html">History</a></li>
+    <li><a href="menu.html">Menu</a></li>
+    <li><a href="chef.html">Chef</a></li>
+    <li><a href="locations.html">Locations</a></li>
+
+  </ul>
+</nav>
+
+<body>
+
+<main>
+<h2> Leave us some feedback so we can improve your dining experience! </h2>
+
+<form action="" method="post" autocomplete="on">
+  <!--fName -->
+
+<label for="firstname">First Name:</label>
+<input type="text" id="firstname" name="firstname" required>
+<br>
+<!-- lName -->
+
+<label for="lastname">Last Name:</label>
+<input type="text" id="lastname" name="lastname" required>
+<br>
+<!-- email -->
+
+<label for="email">Email:</label>
+<input type="email" name="email" id="email" autocomplete="off" required>
+<br>
+<!-- Phone -->
+
+<label for="phone">Phone Number (xxx-xxx-xxxx)</label>
+<input type="tel" name="phone" id="phone">
+<br>
+
+<h3>Where can we send this info?</h3>
+<input type="radio" id="Front of House MGMT" name="destination">
+<label for="Front of House MGMT">Front of House MGMT</label>
+<br>
+<input type="radio" id="Back of House MGMT" name="destination" >
+<label for="Back of House MGMT">Back of House MGMT</label>
+<br>
+<input type="radio" id="General MGMT" name="destination">
+<label for="General MGMT">General MGMT</label>
+<br>
+<hr>
+
+<!-- checkbox -->
+<h3> Do you wish to remain anonymous?</h3>
+<input type="checkbox" id="yesOpt">
+<label for="yesOpt">yes</label>
+</input>
+<input type="checkbox" id="noOpt">
+<label for="noOpt">no</label>
+</input>
+
+<br>
+<hr>
+<!--- only thing I could think of for a dropdown -->
+<h3> ...Just so we know, on a scale of one to ten, how angry is this feedback? </h3>
+<label for="saltiness">How mad?</label>
+<select id="saltiness">
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+  <option value="6">6</option>
+  <option value="7">7</option>
+  <option value="8">8</option>
+  <option value="9">9</option>
+  <option value="10">10</option>
+</select>
+<!--- comment box --->
+<br>
+<hr>
+<p>
+<label for="commentbox">Any extra details:</label>
+<br>
+<textarea name="commentbox" id=commentbox rows="8" cols="80"></textarea>
+
+
+
+
+
+<br>
+<input type="submit" value="submit"></button>
+
+<!-- reset -->
+<h4><em>Danger Zone!</em></h4>
+<p>If you hit this button, it clears the form!</p>
+<input type="reset"></input>
+
+<hr>
+<br>
+
+<!--password input for html, JS will be in footer -->
+<h2>Enter your four-digit passcode and hit OK:</h2>
+<input id="id1" type="number" min="1000" max="9999">
+<button onclick="myFunction()">OK</button>
+<p id="passcode"></p>
+
+<!--- JS -->
+<script type="text/javascript">
+
+function myFunction(){
+
+  var inputObject = document.getElementById("id1");
+
+  if (inputObject.checkValidity() == false){
+
+    document.getElementById("passcode").innerHTML = inputObject.validationMessage;
+
+  } else {
+
+    document.getElementById("passcode").innerHTML = "Passcode is valid";
+
+  }
+};
+</script>
+
+
+
+</form>
+
+</main>
+<footer>
+
+  <p>
+    <a href="index.html">Home</a>
+    <a href="aboutUs.html">About</a>
+    <a href="contactus.html">Contact</a>
+    <a href="history.html">History</a>
+    <a href="menu.html">Menu</a>
+    <a href="chef.html">Chef</a>
+    <a href="locations.html">Locations</a>
+  </p>
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
